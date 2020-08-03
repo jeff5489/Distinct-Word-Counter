@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>This file is for testing purposes.</p>
+    
+        <p>George Washington</p>
+        <p>John Adams</p>
+        <p>Thomas Jefferson</p>
+    
+        <p>
+            The unanimous Declaration of the thirteen united States of America,
+            When in the Course of human events, 
+            it becomes necessary for one people to dissolve the political bands which have connected them with another, 
+            and to assume among the powers of the earth, 
+            the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, 
+            a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
+        </p>
+
+        <p>Test test Test test Test test</p>
+        <p>Zyzzyva2,,,,Zyzzyva2</p>
+        <div>Zyzzyva2div Zyzzyva2div</div>
+    
+    </div>
+    
+    <script>
+        const test = Array.from(document.querySelectorAll('p'))
+        const mapped = test.map(el => el.innerHTML)
+        // const test2 = Array.from(document.querySelectorAll('p').innerHTML)
+
+        console.log('test: ' + test)
+        // console.log('test2: ' + test2)
+        console.log('mapped: ' + mapped)
+
+    </script>
+</body>
+</html>
